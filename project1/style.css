@@ -1,8 +1,111 @@
 body {
-    background-image:url(images/image\ 1.gif);
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-color: #fefefe 
 }
 p {
     color:white;
+}
+    div {
+    margin-top: 50px;
+}
+h1 {
+    text-align: center;
+    color: #000000
+}
+h1{ 
+    font-weight: normal;
+    font-size: 75px;
+    font-family: 'DM Serif Display', serif;
+    margin-bottom: 0;
+}
+div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+h3{
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'DM Serif Display', serif;
+    line-height: 0;
+    margin-top: 0px;
+}
+.alignleft {
+        float: left;
+        position: relative;
+}
+.alignright {
+        float: right;
+        position: relative;
+}
+hr {
+    line-height: 1px;
+    margin-bottom: .2px;
+}
+div
+* {
+    box-sizing: border-box;
+    margin-top: 1px;
+}
+.row {
+    display: flex;
+}
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 10px;
+    margin-left:  50px;
+    margin-right: 50px;
+    font-family: 'Cardo', serif;
+}
+h2 + p::first-letter {
+    color: white;background-color: #152238;
+    border-radius: 2px;
+    box-shadow: #d6d8da;
+    font-size: 400%;
+    padding: 6px 3px;
+    margin-right: 6px;
+    float: left;
+}
+p {
+    color:black 
+}
+p {
+    font-size: 15px;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Homemade Apple', cursive;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+img {
+    border-radius: 50%;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+h3 {
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: relative;
+    font-family: 'Neuton', serif;
+    margin-top: 0px;
+}
+.mask {
+    position: absolute;
+    top:0;
+    right:25px;
+}
+.mask img{
+    width:300px;
 }
