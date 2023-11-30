@@ -1,0 +1,61 @@
+.parent { 
+    display: grid; 
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(4, 1fr); 
+    grid-column-gap: 4px;
+    grid-row-gap: 4px; 
+    }
+    .div1 { grid-area: 1 / 1 / 3 / 3; } 
+    .div2 { grid-area: 3 / 1 / 5 / 3; } 
+    .div3 { grid-area: 1 / 3 / 5 / 5; } 
+    .div4 { grid-area: 1 / 5 / 3 / 7; } 
+    .div5 { grid-area: 3 / 5 / 5 / 7; } 
+.div1 {
+    background-image: url('https://i.pinimg.com/564x/e7/36/9a/e7369ac7239b3fde3db177930cf80a7d.jpg');
+    background-size: cover;
+}
+.taylorrussell img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+.div2 {
+    background-image: url('https://i.pinimg.com/564x/ef/35/ed/ef35ed9ac2b48ef52418dc7478b9a3b3.jpg');
+    background-size: cover;
+}
+.makeup img {
+    border-radius: 50%;
+    width: 100%;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+.div3 {
+    background-image: url('https://i.pinimg.com/564x/ab/e6/81/abe6814d15c01e171b82c946c798839f.jpg');
+    background-size: cover;
+}
+.blumarine img {
+    margin-top: 50%;
+    margin-bottom: 50%;
+    width: 650px;
+}
+.div4 {
+    background-image: url('https://i.pinimg.com/564x/b4/dd/57/b4dd57f5d738d2631b70ecfd56780198.jpg');
+    background-size: cover;
+}
+.bow img {
+    width: 100%;
+    margin-top: 125%;
+}
+.div5 {
+    background-image: url('https://i.pinimg.com/564x/c1/4a/8d/c14a8d11057f8de3eda0a512ca288efe.jpg');
+    background-size: cover;
+}
+.makeup2 img {
+    border-radius: 50%;
+    width: 100%;
+    height: 450px;
+    margin-top: 50%;
+    margin-bottom: 50%;   
+}
