@@ -1,0 +1,12 @@
+h1{
+    font-size:100px;
+    color: #f64ea2;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+img {
+        width: 175px;
+        display: inline-block;
+        margin-bottom: 5%;
+        padding: 10px;
+}

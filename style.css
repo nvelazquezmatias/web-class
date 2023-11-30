@@ -1,46 +1,17 @@
-body { 
-    background-color: rgb(245, 240, 186), 0.7;
-    background-color: pink;
-    /*this color might work
-    background-color: yellow;*/
-    font-family:Arial, Helvetica, sans-serif;
-}
-h1 {
-     font-size: 80px;
-     font-weight: normal;
-     font-size: italic;
-     font-family:Georgia, 'Times New Roman', Times, serif;
-}
-a {
-   color: red;
-   font-weight: bold;
-   text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-    color: green;
-    font-size: 30px;
-}
 
-hr {
-    border-color: red;
-}
-
-h6 {
-    text-transform: uppercase;
-    color: blue;
-}
-p {
-    font-size: 20px;
-    color: purple;
-}
-.red {
-    color: orange;
-    font-weight: bold;
-    background-color: slategray;
-    padding: 50px 20px 50px 20px;   /*p padding: 50px 20px; */
-    margin: 200px 0;
-}
-#highlight {
-    background-color: yellow;
-}
+    body {
+        background-image: url("2.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center; 
+    }
+    img{
+        width: 200px;
+    }
+    div {
+        display: flex;
+        justify-content: center;
+        margin-top: 225px;
+       position: inherit;
+    }
