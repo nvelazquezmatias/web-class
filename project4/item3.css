@@ -1,0 +1,32 @@
+body{ 
+    font-family: 'Inter', sans-serif;
+}
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}  
+div.scrollmenu a:hover {
+    background-color: #f3efef;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.center {
+text-align: center;
+}
+.paragraph {
+    text-align: left;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 25%;
+}

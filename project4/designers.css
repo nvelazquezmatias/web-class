@@ -1,0 +1,33 @@
+body{ 
+    font-family: 'Inter', sans-serif;
+}
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}  
+div.scrollmenu a:hover {
+    background-color: #f3efef;
+}
+.title{
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    margin-left: 10%;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
