@@ -30,3 +30,7 @@ text-align: center;
     padding-right: 25%;
     padding-bottom: 25%;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
